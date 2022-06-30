@@ -1,0 +1,29 @@
+{
+  "name": "projeto-recode",
+  "version": "1.0.0",
+  "description": "Projeto para Avaliação da RecodePro2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/squad010-recodepro/avaliacao1.git"
+  },
+  "keywords": [
+    "bootstrap-5",
+    "alfabetizacao",
+    "paulo-freire",
+    "palavra-semente",
+    "squad010",
+    "recode-pro-2022",
+    "recode-pro",
+    "recodepro"
+  ],
+  "author": "Squad010",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/squad010-recodepro/avaliacao1/issues"
+  },
+  "homepage": "https://github.com/squad010-recodepro/avaliacao1#readme"
+}
