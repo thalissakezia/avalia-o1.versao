@@ -1,12 +1,369 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <title>Projeto-Recode</title>
+  </head>
+  <body>
+    <!-- Barra de Navegacao -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              width="30"
+              height="30"
+              src="src/png/logo-teste.png"
+              class="logo-teste d-inline-block align-text-top"
+            />
+            Alfabetizar
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Como Jogar?</a>
+              </li>
+              <!-- DropdDown de Nivel -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Niveis
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Nivel 1</a></li>
+                  <li><a class="dropdown-item" href="#">Nivel 2</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Nivel 3</a></li>
+                </ul>
+              </li>
+              <!-- /DropdDown de Nivel/ -->
+              <li class="nav-item">
+                <a class="nav-link">Jogo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Desenvolver</a>
+              </li>
+              <!-- Avatar Mobile -->
+              <div class="dropdown mx-auto d-block d-sm-block d-md-none">
+                <a
+                  class="btn btn-success dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  ><img
+                    src="src/png/avatar.png"
+                    width="30"
+                    height="30"
+                    alt=""
+                  />
+                  "Nome"
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="dropdownMenuLink"
+                >
+                  <li><a class="dropdown-item" href="#">Perfil</a></li>
+                  <li><a class="dropdown-item" href="#">Configurações</a></li>
+                  <li><a class="dropdown-item" href="#">Sair</a></li>
+                </ul>
+              </div>
+              <!-- /Avatar Mobile/ -->
+            </ul>
+          </div>
+          <!-- Avatar maior que Mobile -->
+          <div class="dropdown d-none d-md-block d-xl-block d-xxl-block">
+            <a
+              class="btn btn-success dropdown-toggle"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              ><img src="src/png/avatar.png" width="30" height="30" alt="" />
+              "Nome"
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-lg-start"
+              aria-labelledby="dropdownMenuLink"
+            >
+              <li><a class="dropdown-item" href="#">Perfil</a></li>
+              <li><a class="dropdown-item" href="#">Configurações</a></li>
+              <li><a class="dropdown-item" href="#">Sair</a></li>
+            </ul>
+          </div>
+          <!-- /Avatar maior que Mobile/ -->
+        </div>
+      </nav>
+    </header>
+    <!-- /Barra de Navegacao/ -->
+    <main class="container mt-5">
+      <!-- Titulo,sub,texto -->
+      <section class="row principal">
+        <div class="col-12 col-md-6 text-center">
+          <h1 class="display-4">Titulo Titulo Titulo</h1>
+          <h1 class="display-5">
+            Subtitulo Subtitulo Subtitulo Subtitulo Subtitulo?
+          </h1>
+          <p class="lead">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi id
+            autem incidunt, suscipit ex fugit voluptate molestiae ipsum itaque
+            esse assumenda cum sapiente neque, et quas quaerat vitae cupiditate
+            labore?
+          </p>
+          <div class="d-grid d-md-block">
+            <button type="button" class="btn-lg btn-primary">Inicie Já</button>
+          </div>
+        </div>
+
+        <!-- Imagem-principal -->
+        <div class="col-md-6 mt-1 d-none d-md-block">
+          <img
+            class="img-fluid"
+            src="src/svg/illustracao.svg"
+            alt="figura-avatar"
+          />
+        </div>
+        <!-- /Imagem-principal/ -->
+      </section>
+      <!-- /Titulo,sub,texto/ -->
+      <!-- carrossel/niveis -->
+      <section class="carrossel mt-5 row">
+        <!-- Botões de Nivel -->
+        <div
+          class="btn-group col-12"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio1"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-primary" for="btnradio1">Nivel 1</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio2"
+            autocomplete="off"
+          />
+          <label class="btn btn-outline-primary" for="btnradio2">Nivel 2</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="btnradio3"
+            autocomplete="off"
+          />
+          <label class="btn btn-outline-primary" for="btnradio3">Nivel 3</label>
+        </div>
+        <!-- /Botões de Nivel/ -->
+        <!-- Carrossel -->
+        <div class="owl-carousel owl-theme mx-auto col-12 mt-3">
+          <div class="card" style="width: 16rem">
+            <h5 class="card-header">Nivel 1</h5>
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">CARD 1</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-center text-muted">
+              &#x2713; Completo
+            </div>
+          </div>
+
+          <div class="card" style="width: 16rem">
+            <h5 class="card-header">Nivel 1</h5>
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card 2</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 16rem">
+            <h5 class="card-header">Nivel 1</h5>
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card 3</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 16rem">
+            <h5 class="card-header">Nivel 1</h5>
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card 4</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 16rem">
+            <h5 class="card-header">Nivel 1</h5>
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Bota</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 16rem">
+            <h5 class="card-header">Nivel 1</h5>
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Bola</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div class="card" style="width: 16rem">
+            <h5 class="card-header">Nivel 1</h5>
+            >
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Casa</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <!-- \Carrossel\ -->
+      </section>
+      <!-- \carrossel/niveis\ -->
+    </main>
+    <div class="assistente container-fluid fixed-bottom mb-8">
+      <img
+        src="src/svg/assistente2.svg"
+        class="d-none d-md-block float-end img-fluid"
+        width="88"
+        height="88"
+        alt="Assistente-Virtual"
+      />
+      <img
+        src="src/svg/assistente2.svg"
+        class="d-block d-md-none float-end img-fluid"
+        width="64"
+        height="64"
+        alt="Assistente-Virtual"
+      />
+    </div>
+    <footer class="py-5 mt-5 bg-secondary">
+      <div class="contatos container">
+        <div class="py-5 row">
+          <div class="col-12 col-md-4">
+            <a href="#home" class="align-items-center text-decoration-none link-light">
+              <img src="src/png/logo-teste.png" width="24" class="me-2" height="24" alt="">Alfabetizar
+            </a>
+            <ul class="list-group mt-3 list-group-flush">
+              <li class="list-group-item text-success bg-light font-monospace">*Falar Sobre o APP* Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis earum a facilis sint minus odit quod molestias mollitia quidem voluptatem optio voluptas, perspiciatis incidunt vel. Eligendi iste eveniet libero aliquam!</li>
+              <li class="list-group-item text-success bg-light font-monospace">Thauan</li>
+              <li class="list-group-item text-success bg-light font-monospace">Debora</li>
+              <li class="list-group-item text-success bg-light font-monospace">Thalissa</li>
+              <li class="list-group-item text-success bg-light font-monospace">Elcio</li>
+              <li class="list-group-item text-success bg-light font-monospace">Theones</li>
+              <li class="list-group-item text-success bg-light font-monospace">Gilsimar</li>
+              <li class="list-group-item text-success bg-light font-monospace">Ewerton</li>
+            </ul>
+          </div>
+          <div class="col-12 mt-3 col-md-4">
+            <div class="btn-group-vertical d-block">
+              <a href="#" class="btn btn-success btn-lg">Email</a>
+              <a href="#" class="btn btn-danger btn-lg">Instagram</a>
+              <a href="#" class="btn btn-dark btn-lg">TikTok</a>
+              <a href="#" class="btn btn-primary btn-lg">Facebook</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 text-light">
+            <form>
+              <h1 class="display-4">Parceiros</h1>
+              <div class="row">
+                <div class="col">
+                  <label for="nome" class="form-label">Nome:</label>
+                  <input type="text" id="nome" class="form-control" placeholder="Seu Nome" aria-label="First name">
+                </div>
+                <div class="col">
+                  <label for="inputEmail4" class="form-label">Email:</label>
+                  <input type="email" class="form-control" placeholder="Digite seu Email" id="inputEmail4">
+                </div>
+              </div>
+              <button type="submit" class="col mt-2 btn btn-primary">Enviar</button>
+              <div class="col mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+              </div>
+            </form>
+          </div>
+            </footer>
+      </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/carrossel.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+  </body>
 </html>
