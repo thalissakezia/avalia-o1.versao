@@ -11,4 +11,8 @@ $spacers: (
   8: $spacer * 6.25,
 ) !default;
 $enable-shadows: true;
-@import "assets/bootstrap/scss/bootstrap.scss";
+$verde: #169e5f;
+$azul: #0d6efd;
+$primary: $azul;
+$success: $verde;
+@import "../../bootstrap-5.1.3/scss/bootstrap.scss";
