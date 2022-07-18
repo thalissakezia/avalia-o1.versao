@@ -2,7 +2,7 @@
 
 ## Integrantes
 
-Thauan - Debora - Gilsimar - Theones - Thalissa - Elcio - Ewerton
+GitHub - [Thauan](https://github.com/devmagary) - [Debora](https://github.com/Lolisdu) - Gilsimar - Theones - [Thalissa](https://github.com/thalissakezia) - [Elcio](https://github.com/ElcioJPSilva) - [Ewerton](https://github.com/ewe89tom)
 
 ## Entrega
 
