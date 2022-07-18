@@ -18,7 +18,7 @@ Thauan - Debora - Gilsimar - Theones - Thalissa - Elcio - Ewerton
 ### Paletas de Cores:
 $verde: #169e5f;  - Substituimos a cor padrão do Success do BootStrap.
 
-$azul: #0d6efd; - Idem.
+$azul: #0d61fd; - Idem.
 
 
 
