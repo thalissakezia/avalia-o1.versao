@@ -1,190 +1,177 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="./assets/css/custom.css" />
-    <title>Jogo</title>
-  </head>
-  <body>
-    <!-- Barra de Navegacao -->
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark bg-success">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img
-              width="30"
-              height="30"
-              src="src/png/logo-teste.png"
-              class="logo-teste d-inline-block align-text-top"
-            />
-            Alfabetizar
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="comojogar.html">Como Jogar?</a>
-              </li>
-              <!-- DropdDown de Nivel -->
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Niveis
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-dark"
-                  aria-labelledby="navbarDropdown"
-                >
-                  <li><a class="dropdown-item" href="#">Nivel 1</a></li>
-                  <li><a class="dropdown-item" href="#">Nivel 2</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li><a class="dropdown-item" href="#">Nivel 3</a></li>
-                </ul>
-              </li>
-              <!-- /DropdDown de Nivel/ -->
-              <li class="nav-item">
-                <a class="nav-link active" href="jogo.html">Jogo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contato.html">Contato</a>
-              </li>
-              <!-- Avatar Mobile -->
-              <div class="dropdown mx-auto d-block d-sm-block d-md-none">
-                <a
-                  class="btn btn-success dropdown-toggle"
-                  href="#"
-                  role="button"
-                  id="dropdownMenuLink"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  ><img
-                    src="src/png/avatar.png"
-                    width="30"
-                    height="30"
-                    alt=""
-                  />
-                  "Nome"
-                </a>
-                <ul
-                  class="dropdown-menu dropdown-menu-dark"
-                  aria-labelledby="dropdownMenuLink"
-                >
-                  <li><a class="dropdown-item" href="#">Perfil</a></li>
-                  <li><a class="dropdown-item" href="#">Configurações</a></li>
-                  <li><a class="dropdown-item" href="#">Sair</a></li>
-                </ul>
-              </div>
-              <!-- /Avatar Mobile/ -->
-            </ul>
-          </div>
-          <!-- Avatar maior que Mobile -->
-          <div class="dropdown d-none d-md-block d-xl-block d-xxl-block">
-            <a
-              class="btn btn-success dropdown-toggle"
-              href="#"
-              role="button"
-              id="dropdownMenuLink"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-              ><img src="src/png/avatar.png" width="30" height="30" alt="" />
-              "Nome"
-            </a>
-            <ul
-              class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-lg-start"
-              aria-labelledby="dropdownMenuLink"
-            >
-              <li><a class="dropdown-item" href="#">Perfil</a></li>
-              <li><a class="dropdown-item" href="#">Configurações</a></li>
-              <li><a class="dropdown-item" href="#">Sair</a></li>
-            </ul>
-          </div>
-          <!-- /Avatar maior que Mobile/ -->
-        </div>
-      </nav>
-    </header>
 
-<!-- Footer -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="./assets/css/custom.css" />
+  <title>Jogo</title>
+</head>
 
-<footer class="py-5 mt-5 bg-secondary">
-    <div class="contatos container">
-      <div class="py-5 row">
-        <div class="col-12 col-md-4">
-          <a href="#home" class="align-items-center text-decoration-none link-light">
-            <img src="src/png/logo-teste.png" width="24" class="me-2" height="24" alt="">Alfabetizar
-          </a>
-          <ul class="list-group mt-3 list-group-flush">
-            <li class="list-group-item text-success bg-light font-monospace">*Falar Sobre o APP* Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis earum a facilis sint minus odit quod molestias mollitia quidem voluptatem optio voluptas, perspiciatis incidunt vel. Eligendi iste eveniet libero aliquam!</li>
-            <li class="list-group-item text-success bg-light font-monospace">Thauan</li>
-            <li class="list-group-item text-success bg-light font-monospace">Debora</li>
-            <li class="list-group-item text-success bg-light font-monospace">Thalissa</li>
-            <li class="list-group-item text-success bg-light font-monospace">Elcio</li>
-            <li class="list-group-item text-success bg-light font-monospace">Theones</li>
-            <li class="list-group-item text-success bg-light font-monospace">Gilsimar</li>
-            <li class="list-group-item text-success bg-light font-monospace">Ewerton</li>
+<body>
+  <!-- Barra de Navegacao -->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img width="30" height="30" src="src/png/logo-teste.png" class="logo-teste d-inline-block align-text-top" />
+          Alfabetizar
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comojogar.html">Como Jogar?</a>
+            </li>
+            <!-- DropdDown de Nivel -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Niveis
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Nivel 1</a></li>
+                <li><a class="dropdown-item" href="#">Nivel 2</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Nivel 3</a></li>
+              </ul>
+            </li>
+            <!-- /DropdDown de Nivel/ -->
+            <li class="nav-item">
+              <a class="nav-link active" href="jogo.html">Jogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+            <!-- Avatar Mobile -->
+            <div class="dropdown mx-auto d-block d-sm-block d-md-none">
+              <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-bs-toggle="dropdown" aria-expanded="false"><img src="src/png/avatar.png" width="30" height="30"
+                  alt="" />
+                "Nome"
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                <li><a class="dropdown-item" href="#">Configurações</a></li>
+                <li><a class="dropdown-item" href="#">Sair</a></li>
+              </ul>
+            </div>
+            <!-- /Avatar Mobile/ -->
           </ul>
         </div>
-        <div class="col-12 mt-3 col-md-4">
-          <div class="btn-group-vertical d-block">
-            <a href="#" class="btn btn-success btn-lg">Email</a>
-            <a href="#" class="btn btn-danger btn-lg">Instagram</a>
-            <a href="#" class="btn btn-dark btn-lg">TikTok</a>
-            <a href="#" class="btn btn-primary btn-lg">Facebook</a>
-          </div>
+        <!-- Avatar maior que Mobile -->
+        <div class="dropdown d-none d-md-block d-xl-block d-xxl-block">
+          <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+            data-bs-toggle="dropdown" aria-expanded="false"><img src="src/png/avatar.png" width="30" height="30"
+              alt="" />
+            "Nome"
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-lg-start"
+            aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Perfil</a></li>
+            <li><a class="dropdown-item" href="#">Configurações</a></li>
+            <li><a class="dropdown-item" href="#">Sair</a></li>
+          </ul>
         </div>
-        <div class="col-12 col-md-4 text-light">
-          <form>
-            <h1 class="display-4">Parceiros</h1>
-            <div class="row">
-              <div class="col">
-                <label for="nome" class="form-label">Nome:</label>
-                <input type="text" id="nome" class="form-control" placeholder="Seu Nome" aria-label="First name">
-              </div>
-              <div class="col">
-                <label for="inputEmail4" class="form-label">Email:</label>
-                <input type="email" class="form-control" placeholder="Digite seu Email" id="inputEmail4">
-              </div>
-            </div>
-            <button type="submit" class="col mt-2 btn btn-primary">Enviar</button>
-            <div class="col mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-            </div>
-          </form>
+        <!-- /Avatar maior que Mobile/ -->
+      </div>
+    </nav>
+  </header>
+
+  <!-- Footer -->
+
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <i class="fab fa-slack"></i>
+          <span class="logo_name">Alfabetiza</span>
+          <img src="src/png/logo-teste.png" width="24" class="me-2" height="24" alt="" />
         </div>
-          </footer>
-
-          <!-- Footer -->
+        <div class="media-icons">
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-tiktok"></ion-icon>
+          </a>
 
         </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Contato</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contate-nos</a></li>
+          <li><a href="#">Sobre nos</a></li>
+          
+        </ul>
+        <ul class="box">
+          <li class="link_name">Serviços</li>
+          <li><a href="#">Nosso App</a></li>
+          <li><a href="#">Nosso site</a></li>
+          <li><a href="#">Nosso jogo</a></li>
 
-        <script src="./assets/js/jquery.min.js"></script>
-        <script src="./assets/js/owl.carousel.min.js"></script>
-        <script src="./assets/js/carrossel.js"></script>
-        <script src="./assets/js/bootstrap.bundle.js"></script>
-      </body>
-    </html>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Conta</li>
+          <li><a href="#">Perfil</a></li>
+          <li><a href="#">Minha conta</a></li>
+          <li><a href="#">Preferências</a></li>
+
+        </ul>
+        <ul class="box">
+          <li class="link_name">Parceiros</li>
+          <li><a href="#">Seja um parceiro</a></li>
+          <li><a href="#">Área do parceiro</a></li>
+          <li><a href="#">Divulgação</a></li>
+
+        </ul>
+        <ul class="box input-box">
+          <li class="link_name">Se inscreva</li>
+          <li><input type="text" placeholder="Digite seu e-mail"></li>
+          <li><input type="button" value="Enviar"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text">Copyright © 2022 <a href="#"></a>Todos os direitos reservados</span>
+        <span class="policy_terms">
+          <a href="#">Política de privacidade</a>
+          <a href="#">Termos & condições</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+
+  </div>
+
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/owl.carousel.min.js"></script>
+  <script src="./assets/js/carrossel.js"></script>
+  <script src="./assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
