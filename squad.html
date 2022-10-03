@@ -6,10 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" href="./assets/css/bootstrap.css" />
 	<link rel="stylesheet" href="./assets/css/custom.css" />
+	<link rel="stylesheet" href="./assets/css/footer.css">
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-	<link rel="stylesheet" href="assets/css/footer.css">
-	<title> Introducão</title>
+	<title> Squad </title>
 </head>
 
 <body>
@@ -33,14 +33,12 @@
 								<a class="nav-link active" aria-current="page" href="squad.html">Squad</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="./Tutorial.html">Tutorial</a>
+								<a class="nav-link" href="./Tutorial.html">Introdução</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="./pagina_do_jogo.html">Jogo</a>
 							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="./contato.html">Contato</a>
-							</li>
+
 							<!-- DropdDown de Nivel -->
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -56,49 +54,75 @@
 									<li><a class="dropdown-item" href="#">Nivel 3</a></li>
 								</ul>
 							</li>
-            <!-- Avatar Mobile -->
-            <div class="dropdown mx-auto d-block d-sm-block d-md-none">
-              <a class="btn btn-warning dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                data-bs-toggle="dropdown" aria-expanded="false"><img src="src/png/avatar.png" width="30" height="30"
-                  alt="" />
-                Nome
-              </a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Perfil</a></li>
-                <li><a class="dropdown-item" href="#">Configurações</a></li>
-                <li><a class="dropdown-item" href="#">Sair</a></li>
-              </ul>
-            </div>
-            <!-- /Avatar Mobile/ -->
-          </ul>
-        </div>
-        <!-- Avatar maior que Mobile -->
-        <div class="dropdown d-none d-md-block d-xl-block d-xxl-block">
-          <a class="btn btn-warning dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-            data-bs-toggle="dropdown" aria-expanded="false"><img src="src/png/avatar.png" width="30" height="30"
-              alt="" />
-            Nome
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-lg-start"
-            aria-labelledby="dropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Perfil</a></li>
-            <li><a class="dropdown-item" href="#">Configurações</a></li>
-            <li><a class="dropdown-item" href="#">Sair</a></li>
-          </ul>
-        </div>
-        <!-- /Avatar maior que Mobile/ -->
-      </div>
-    </nav>
+							<!-- /Avatar Mobile/ -->
+						</ul>
+					</div>
+					<!-- /Avatar maior que Mobile/ -->
+				</div>
+			</nav>
+			<!-- /Avatar Mobile/ -->
+			</ul>
+			</div>
+			<!-- Avatar maior que Mobile -->
+			<div class="dropdown d-none d-md-block d-xl-block d-xxl-block">
+				<a class="btn btn-warning dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+					data-bs-toggle="dropdown" aria-expanded="false"><img src="./src/png/avatar.png" width="30"
+						height="30" alt="" />
+					Nome
+				</a>
+				<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end dropdown-menu-lg-start"
+					aria-labelledby="dropdownMenuLink">
+					<li><a class="dropdown-item" href="#">Perfil</a></li>
+					<li><a class="dropdown-item" href="#">Configurações</a></li>
+					<li><a class="dropdown-item" href="#">Sair</a></li>
+				</ul>
+			</div>
 	</header>
-	<!-- CONTEUDO -->
-	<main class="container text-center mt-5">
-		<h1>Tutorial</h1>
-		<div class="embed-responsive embed-responsive-16by9">
-			<iframe style="height: 800px" class="embed-responsive-item w-100"
-				src="https://www.youtube.com/embed/fb6NQhIYwGA" allowfullscreen></iframe>
-		</div>
+	<!-- /Fotos Squad / -->
+	<main>
+			<section>
+				<p class="display-6 text-center"> Educar é impregnar de sentido o que fazemos a cada instante. "Paulo
+					Freire".</p>
+				<div class=" vstack gap-4 col-md-8 gap-8 mx-auto">
+					<ul class="fotos-equipe">
+						<li><img class="fotos" src="./imagem/Thauan.svg" alt="Thauan"> Thauan - Especialista Front/Back
+							End</img></li>
+						<li><img class="fotos" src="./imagem/Theones.svg" alt="Theones"> Theones - Especialista Front
+							End/Design</img></li>
+						<li><img class="fotos" src=".." alt=".."> Thalissa -Especialista Java-Back End</img></li>
+						<li><img class="fotos" src="./imagem/Elcio.svg" alt=" Elcio"> Elcio - Especialista Front/Back
+							End</img></li>
+						<li><img class="fotos" src=".." alt=""> Ewerton - Especialista Front End/ Midias </img></li>
+						<li><img class="fotos" src="./imagem/Débora.svg" alt="Débora"> Débora - Especialista Front
+							End/Design</img></li>
+					</ul>
+				</div>
+			</section>
+
+
+			<!-- | Barra de Navegacao | -->
+			<section>
+				<p class="row display-6 text-start"> Mande sua mensagem </p>
+				<div class="container mt-3">
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Nome completo</label>
+						<input type="text" class="form-control" id="exampleFormControlInput1"
+							placeholder="Digite aqui seu nome" />
+					</div>
+					<div class="mb-3">
+						<label for="exampleFormControlInput2" class="form-label">E-mail</label>
+						<input type="email" class="form-control" id="exampleFormControlInput2"
+							placeholder="Digite aqui seu e-mail" />
+					</div>
+					<div class="mb-3">
+						<label for="exampleFormControlTextarea1" class="form-label">Sugestões</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						<input class="btn btn-primary mt-3" type="submit" value="Enviar" />
+					</div>
+				</div>
+			</section>
 	</main>
-	<!-- CONTEUDO -->
+	<!-- Footer -->
 	<footer>
 		<div class="content">
 			<div class="top">
@@ -132,7 +156,7 @@
 					<li><a href="#">Home</a></li>
 					<li><a href="#">Contate-nos</a></li>
 					<li><a href="#">Sobre nos</a></li>
-					<li><a href="#"></a></li>
+
 				</ul>
 				<ul class="box">
 					<li class="link_name">Serviços</li>
@@ -172,6 +196,8 @@
 			</div>
 		</div>
 	</footer>
+
+	<!-- Footer -->
 	<script src="./assets/js/bootstrap.bundle.js"></script>
 </body>
 
