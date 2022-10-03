@@ -10,6 +10,7 @@
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	<link rel="stylesheet" href="assets/css/footer.css">
+	<script src="https://code.responsivevoice.org/responsivevoice.js?key=eHPk9JKt"></script>
 
 	<title>Palavra Semente</title>
 </head>
@@ -78,105 +79,88 @@
 		</nav>
 	</header>
 	<!-- /Barra de Navegacao/ -->
-	<!--container -->
-	<div class="container mt-5">
-		<div class="row ">
-			<div class="row justify-content-center row-cols-1 row-cols-md-5 g-4">
-				<!-----card 1--->
-				<div class="col">
-					<div class="card h-100">
-						<script
-							src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js "></script>
-						<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ppnztcyy.json"
-							class="img-fluid" background="transparent" speed="1" style="width: 300px; height: 300px"
-							loop autoplay></lottie-player>
-						<form action="">
-							<div class="card-body">
-								<select id="silabas" onChange="atualizouSelect()" class="custom-select" multiple>
-									<option value="ca">CA</option>
-									<option value="se">SE</option>
-									<option value="co">CO</option>
-									<option value="su">SU</option>
-									<option value="ce">CE</option>
-									<option value="si">SI</option>
-									<option value="cu">CU</option>
-									<option value="sa">SA</option>
-									<option value="ci">CI</option>
-									<option value="so">SO</option>
-								</select>
-							</div>
-						</form>
-					</div>
-				</div>
-
-				<!--// card 1--->
-
-				<!-----------------seta ----------------1-->
-
-				<button class="button"><span>enviar </span></button>
-
-				<!----//-----------seta----------//--------1-->
-
-				<!---card 2---->
-
-				<div class="col">
-					<div class="card h-100">
-						<script
-							src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-						<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_co7lt8br.json"
-							class="img-fluid" background="transparent" speed="1" style="width: 300px; height: 300px"
-							loop autoplay></lottie-player>
-
-						<form action="">
-							<div class="card-body">
-								<select id="silabas" onChange="atualizouSelect()" class="custom-select" multiple>
-									<option value="ca">CA</option>
-									<option value="se">SE</option>
-									<option value="co">CO</option>
-									<option value="su">SU</option>
-									<option value="ce">CE</option>
-									<option value="si">SI</option>
-									<option value="cu">CU</option>
-									<option value="sa">SA</option>
-									<option value="ci">CI</option>
-									<option value="so">SO</option>
-								</select>
-							</div>
-						</form>
-					</div>
-				</div>
-
-				<!----//card 2----->
-
-				<!-----------------seta ----------------2-->
-
-				<button class="button"><span>Enviar </span></button>
-
-				<!----//-----------seta----------//--------2-->
-
-				<!---card 3-precisa apagar--->
-				<div class="col">
-					<div class="card h-100">
-						<script
-							src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-						<lottie-player src="https://assets3.lottiefiles.com/packages/lf20_V0pDim.json" class="img-fluid"
-							background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay>
-						</lottie-player>
-						<form action="">
-							<div class="card-body"></div>
-						</form>
-					</div>
+<!--container -->
+<div class=""> 
+	<div class="row "> 
+		<div class="row justify-content-center row-cols row-cols-md-2 g-4">
+			<!-----card 1--->
+			<div class="" id="col-1">
+				<div class="card h-100">
+					<script id="img1" src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+					<lottie-player  onclick="responsiveVoice.speak('casa')" src="https://assets1.lottiefiles.com/private_files/lf30_qjqkjaj0.json"  
+						background="transparent"
+						speed="1"
+						style="width: 200px; height: 200px ; padding: 0px; margin: 0px;"
+						loop
+						autoplay></lottie-player>
+						
+							<table>
+								<tr>
+								
+								  <td><button class="silaba" onclick="responsiveVoice.speak('ca')" value="ca">CA</button></td>
+								  <td><button class="silaba" onclick="responsiveVoice.speak('si')" value="si">SI</button></td>
+								  <td><button class="silaba" onclick="responsiveVoice.speak('co')" value="co">CO</button></td>
+								</tr>
+								<tr>
+								  <td><button class="silaba" onclick="responsiveVoice.speak('ce')" value="ce">CE</button></td>
+								  <td><button class="silaba" onclick="responsiveVoice.speak('sô')" value="so">SO</button></td>
+								  <td><button class="silaba" onclick="responsiveVoice.speak('sá')" value="sa">SA</button></td>
+								</tr>
+								<tr>
+								  <td><button class="silaba" onclick="responsiveVoice.speak('sí')" value="ci">CI</button></td>
+								  <td><button class="silaba" onclick="responsiveVoice.speak('sé')" value="se">SE</button></td>
+								  <td><button class="silaba" onclick="responsiveVoice.speak('su')" value="su">SU</button></td>
+								</tr>
+								<td><button class="silaba" onclick="responsiveVoice.speak('letra c')" value="c"> C </button></td>
+								<td><button class="silaba" onclick="responsiveVoice.speak('cu')" value="cu">CU</button></td>
+								<td><button class="silaba" onclick="responsiveVoice.speak('letra s')" value="s"> S </button></td>
+								</tr>
+							  </table>
 				</div>
 			</div>
+
+			<!--// card 1--->
+
+			<!-----------------seta ----------------1--
+		<div id="enviar1">
+			<button class="button"><span>>>> </span></button>
+		</div>
+			<!----//-----------seta----------//--------1-->
+
+			<!---card 2---->
+
+			<div class="col">
+				<div class="card h-100">
+					<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+					  <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ct9lwdsp.json" 
+						background="transparent"
+						speed="1"
+						style="width: 300px; height: 300px"
+						loop
+						autoplay
+					></lottie-player>
+
+					<form action="">
+						<div class="card-body">
+							<table
+								id="silabas"
+								onChange="atualizouSelect()"
+								class="custom-select"
+								multiple>
+							
+							  </table>								
+						</div>
+					</form>
+				</div>
+			</div>
+
+
 		</div>
 	</div>
-	<!---//card 3------>
+</div>
+			<!----//card 2----->
 
-	<!--//container -->
 
-	<!--teste2-->
-
-	<!--/teste2-->
 
 	<!--assistente virtual-->
 	<div class="assistente container-fluid fixed-bottom mb-8">
